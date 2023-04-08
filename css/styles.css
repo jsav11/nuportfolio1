@@ -24,21 +24,21 @@ hr {
   border-width: 5px;
   width: 5%;
 }
-.navbar {
+.navbar{
   font-size: 22px;
   text-align: center;
-  background-color: rgb(217, 245, 255);
+  background-color: rgb(210, 237, 247);
 }
 
 #skills {
   margin: auto;
   align-items: center;
-  background-color: rgb(217, 245, 255);
+  background-color: rgb(234, 244, 247);
 }
 
 #workex{
   align-items: center;
-  background-color: rgb(217, 245, 255);
+  background-color:rgb(234, 244, 247);
 }
 
 #edlinks {
@@ -46,6 +46,7 @@ hr {
   text-align: center;
   margin-left: 140px;
   margin-right: 140px;
+  background-color: rgb(234, 244, 247);
 }
 
 ul {
@@ -66,7 +67,7 @@ a:hover {
 
 .card {
   padding: 2px;
-  background-color: rgb(217, 245, 255);
+  background-color: rgb(252, 252, 244);
 }
 
 h1 {
