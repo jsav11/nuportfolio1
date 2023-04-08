@@ -49,8 +49,18 @@ hr {
   background-color: rgb(234, 244, 247);
 }
 
+#intro {
+  margin-bottom: 200px;
+}
+
 ul {
   list-style-type: none;
+}
+
+td {
+  border-style: groove;
+  border-width: 2px;
+  padding: 6px;
 }
 
 
@@ -96,9 +106,14 @@ font-size: 18px;
 }
 
 .site-footer {
+  margin-top: auto;
   text-align: center;
   background-color: rgb(217, 245, 255);
-  padding: 14px 0;
+  padding: 8px 0;
+}
+
+#footspace {
+  margin-top: 430px;
 }
 
 

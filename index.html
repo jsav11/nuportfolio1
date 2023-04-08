@@ -41,12 +41,15 @@
         <div class="container">
             <a class="navbar-brand" href="#"><img src="images/jfavicon.ico" alt="Jessi favicon" height="30"
                     width="30" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#jessiNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
             <div class="collapse navbar-collapse" id="jessiNavbar">
                 <div class="navbar-nav">
                     <a class="nav-link active" title="home" href="index.html">Home</a>
-                    <a class="nav-link" title="Resume" href="resume.html">Resume</a> 
-                    <a class="nav-link" title="Contact" href="contact.html">Contact</a> 
+                    <a class="nav-link" title="Resume" href="resume.html">Resume</a>
+                    <a class="nav-link" title="Contact" href="contact.html">Contact</a>
                     <a class="nav-link" title="Links" href="links.html">Links</a>
                 </div>
             </div>
@@ -54,22 +57,23 @@
     </nav>
 
     <div class="row row-content">
-        <div class="col">
+        <div class="col" id="intro">
             <h2>Hello!</h2>
             <hr />
             <p><em>I'm a student at<strong>
-                        <a href="https://www.https://www.nucamp.co/">
+                        <a href="https://www.nucamp.co/" title="Nucamp Website" target="_blank" >
                             Nucamp's Full Stack Web and Mobile Development Bootcamp.</a></strong></em></p>
             <p>I'm studying web development and I love to write code.</p>
         </div>
     </div>
 
     <footer class="site-footer">
-        <a href="resume.html">Resume</a>
-        <strong><a href="contact.html">Contact</a></strong>
-        <a href="links.html">My Links</a>
-
+        <a href="index.html" title="Home">Home</a>
+        <a href="resume.html" title="Resume">Resume</a>
+        <strong><a href="contact.html" title="Contact">Contact</a></strong>
+        <a href="links.html" title="Links">Links</a>
     </footer>
+
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
