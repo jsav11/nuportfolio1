@@ -30,6 +30,20 @@ hr {
   background-color: rgb(210, 237, 247);
 }
 
+.breadcrumb {
+background-color:rgb(210, 237, 247) ;
+}
+
+#resumeh2 {
+  text-decoration: underline 2px;
+  
+}
+
+#linklist {
+  background-color: gainsboro;
+  padding: 1px;
+}
+
 #skills {
   margin: auto;
   align-items: center;
