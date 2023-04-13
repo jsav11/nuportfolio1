@@ -96,9 +96,8 @@ a:hover {
 
 h1 {
   font-family: 'Kanit', sans-serif;
-  color: #2c7777;
- font-style: bold;
- text-decoration: underline;
+  color: #3a697b;
+ text-decoration: underline 2px;
 
 
 }
